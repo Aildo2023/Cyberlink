@@ -1,0 +1,14 @@
+﻿/* background master page*/
+.background {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(14,13,32,1) 100%);
+}
+
+.title {
+    color: #3d1285;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bauhaus 93';
+    text-shadow: 0 0 7px #fff,0 0 10px #fff,0 0 21px #fff;
+}
+

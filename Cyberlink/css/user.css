@@ -1,0 +1,107 @@
+﻿/* background master page*/
+.background {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(14,13,32,1) 100%);
+}
+
+.title {
+    color: #3d1285;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bauhaus 93';
+    text-shadow: 0 0 7px #fff,0 0 10px #fff,0 0 21px #fff;
+}
+
+.div {
+    background: #166d28;
+    height: 80px;
+    border: 5px double #053c70;
+    border-radius: 20px;
+}
+
+.image {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 57px;
+    width: 67px;
+}
+
+.label {
+    position: absolute;
+    left: 95px;
+    top: 30px;
+    font-size: 20px;
+    font-family: 'Bauhaus 93';
+}
+
+.button {
+    width:100%;
+    text-align:left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        background-color: #b4b4b4;
+    }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #030000;
+    color: white;
+    padding: 16px;
+    font-family: 'Bauhaus 93';
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 3px 9px;
+}
+
+/* posicionar o conteudo suspenso*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 30%;
+    top: 15px;
+}
+
+/* Dropdown oculto*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+}
+
+    /* links dentro do menu*/
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+        border-radius: 5px;
+    }
+
+        /* alterar a cor da lista suspensa ao passa o mouse */
+        .dropdown-content a:hover {
+            background-color: #b4b4b4;
+        }
+
+/* mostrar o menu suspenso ao passar o mouse*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Altere a cor de fundo do botão suspenso quando o conteúdo do menu suspenso for mostrado*/
+.dropdown:hover .dropbtn {
+    background-color: #302e2e;
+}

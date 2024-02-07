@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user.master.cs" Inherits="Cyberlink.user" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="background">
+    <form id="form1" runat="server">
+        <div>
+            <!–importação css–>
+         <link rel="stylesheet" type="text/css" href="css/user.css" media="all" />
+            <div class="div">
+                <asp:Image ID="Image2" runat="server" CssClass="image" ImageUrl="~/image/login.png" />
+                <asp:Label ID="Label1" runat="server" Text="Label" CssClass="label"></asp:Label>
+                <div class="dropdown">
+                    <button class="dropbtn">Cadastro</button>
+                    <div class="dropdown-content">
+                        <asp:HyperLink ID="HyperLink1" runat="server">Produto</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server">Cliente</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink3" runat="server">Fornecedor</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink4" runat="server">Vendas</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink5" runat="server">Compras</asp:HyperLink>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Serviços</button>
+                    <div class="dropdown-content">
+                        <asp:HyperLink ID="HyperLink6" runat="server">Relatórios</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink7" runat="server">2 via pedido</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink8" runat="server">Locais próximo</asp:HyperLink>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Configurações</button>
+                    <div class="dropdown-content">
+                        <asp:HyperLink ID="HyperLink9" runat="server">Perfil</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink10" runat="server">Enderenço</asp:HyperLink>
+                        <asp:Button ID="Button1" runat="server"  CssClass="button" Text="Sair" OnClick="Button1_Click" />
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

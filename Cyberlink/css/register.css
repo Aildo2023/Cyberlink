@@ -1,0 +1,73 @@
+﻿/* customização de tela de login e cadastro*/
+.div {
+    line-height: 30px;
+    border: 5px double #ffffff;
+    background-color: #000000;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+    left: 31%;
+    width: 40%;
+    height: 58%;
+    border-radius: 20px;
+}
+
+.textbox {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 8%;
+    border: 5px double #053c70;
+    border-radius: 20px;
+    text-align: center;
+}
+
+    .textbox:hover {
+        border: 5px double #166d28;
+    }
+
+
+.button {
+    margin-top: 10px;
+    width: 60%;
+    height: 20%;
+    margin-left: 20%;
+    border: 5px double #053c70;
+    border-radius: 20px;
+    background-color: #166d28;
+    font-size: 30px;
+    font-family: 'Bauhaus 93';
+}
+
+    .button:hover {
+        background-color: #4cff00;
+    }
+
+.image {
+    position: absolute;
+    left: 47%;
+    top: 18%;
+}
+
+.link {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+}
+
+.label {
+    position: absolute;
+    left: 15%;
+    top: 87%;
+    color: #3d1285;
+    font-size: 35px;
+    font-family: 'Bauhaus 93';
+}
+.dropDownlist {
+    margin-top: 10px;
+    width: 83%;
+    margin-left: 8%;
+    border: 5px double #053c70;
+    border-radius: 20px;
+    text-align: center;
+}
